@@ -1,0 +1,16 @@
+{
+  "name": "spa-travis-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetchData": "node fetchData.js",
+    "cleanData": "node processData.js",
+    "extractStats": "node stats.js"
+  },
+  "author": "Marcin Lasak",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
